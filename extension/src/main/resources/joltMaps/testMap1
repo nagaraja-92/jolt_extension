@@ -4,5 +4,11 @@
     "spec": {
       "key": "key1"
     }
+  },
+  {
+    "operation": "com.jolt.extension.joltTransform.utils.BasicTransformation",
+    "spec": {
+       "key1": "=date_transform('MM/dd/yyyy hh:mm:ss aa')"
+    }
   }
 ]
